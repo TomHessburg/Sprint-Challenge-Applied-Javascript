@@ -12,9 +12,10 @@ class Carousel {
         rightBtn.addEventListener("click", () => this.rightSlide());
     }
     leftSlide(){
+
         if(myCounter === 0){
             myCounter = 3
-        }
+        }                                                //obviously not idea... trying to figure out the scope of how to access each img individually using its index. rn itll only toggle 3 of the images dependant on which way that you click haha...
     
         carImgs.forEach(image => image.style.display = "none");
         //carImgs[Math.floor(Math.random()*3)].style.display = "block";
