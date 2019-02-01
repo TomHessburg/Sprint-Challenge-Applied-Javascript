@@ -40,7 +40,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What is an event listener?
 
-    An event listener listenes for input(like a click event) from the user, and funs a callback function based on that event.
+    An event listener listenes for input(like a click event) from the user, and runs a callback function based on that event.
 
 4. Why would we convert a NodeList into an Array?
 
