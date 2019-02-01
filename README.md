@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The dom is a tree created from the HTML document! each bit fo the tree is known as a node. The DOM is live and each node can be traversed, accessed and changed.
+
 2. What is an event?
+
+    An event is anything thats done on your page. This is either user input or events like the window loading. Clicks, mousedown, keyup, and scroll are some examples
 
 3. What is an event listener?
 
+    An event listener listenes for input(like a click event) from the user, and runs a callback function based on that event.
+
 4. Why would we convert a NodeList into an Array?
 
+    Arrays have more methods! NodeLists have the ability to access forEach loops but not nearly as much else as an array!
+
 5. What is a component?
+
+    A component is a reuseable piece of code. Its like a factory that creates pieces on the page. You may have a component that creates and lays out posts on a social media platform, or a component that gives dropdown menues on your page their movement, no matter how many of them their may be!
 
 ### Git Set up
 
